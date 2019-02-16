@@ -6,16 +6,16 @@ using System.Threading.Tasks;
 
 namespace ThreadSafeSingletonPattern
 {
-    public sealed class Singleton
+    public sealed class ThreadSafeSingleton
     {
-        private static Singleton instance = null;
+        private static ThreadSafeSingleton instance = null;
         private static readonly object padlock = new object();
 
-        Singleton()
+        private ThreadSafeSingleton()
         {
         }
 
-        public static Singleton Instance
+        public static ThreadSafeSingleton Instance
         {
             get
             {
@@ -23,7 +23,7 @@ namespace ThreadSafeSingletonPattern
                 {
                     if (instance == null)
                     {
-                        instance = new Singleton();
+                        instance = new ThreadSafeSingleton();
                     }
                     return instance;
                 }
