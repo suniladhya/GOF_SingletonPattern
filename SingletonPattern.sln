@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleSingletonPattern", "S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadSafeSingletonPattern", "ThreadSafeSingletonPattern\ThreadSafeSingletonPattern.csproj", "{9AEF0449-19F0-430D-8578-DC45C8C76D15}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lazy_Singleton_", "Lazy_Singleton_\Lazy_Singleton_.csproj", "{DAA829A5-79F5-4A16-B616-3A8E9479E118}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{9AEF0449-19F0-430D-8578-DC45C8C76D15}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9AEF0449-19F0-430D-8578-DC45C8C76D15}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9AEF0449-19F0-430D-8578-DC45C8C76D15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAA829A5-79F5-4A16-B616-3A8E9479E118}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAA829A5-79F5-4A16-B616-3A8E9479E118}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAA829A5-79F5-4A16-B616-3A8E9479E118}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAA829A5-79F5-4A16-B616-3A8E9479E118}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

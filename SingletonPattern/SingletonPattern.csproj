@@ -50,6 +50,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Lazy_Singleton_\Lazy_Singleton_.csproj">
+      <Project>{DAA829A5-79F5-4A16-B616-3A8E9479E118}</Project>
+      <Name>Lazy_Singleton_</Name>
+    </ProjectReference>
     <ProjectReference Include="..\SimpleSingletonPattern\SimpleSingletonPattern.csproj">
       <Project>{f0394c5f-a843-48a9-a469-b3714d9a332c}</Project>
       <Name>SimpleSingletonPattern</Name>
